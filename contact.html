@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Contact us page</title>
+      <link rel="stylesheet" type="text/css" href="mystyle.css">
+      <style>
+     body{background-color:#FCA78A; color:#25395C
+} 				
+      </style>
+   </head>	
+   <body>
+   				<img src="Images/download.jpeg" alt="Testimage" width="400px" height="300px" border="2">
+      <h1>CONTACT US</h1>
+    <h2><tt>please fill in your information and we'll get to you as soon as possible</tt></h2>
+     
+      <div id="after_submit"></div>
+       <form id="contact_form" action="Url" method="POST" enctype="multipart/form-data">
+       	 <div class="row"> <label class="required" for="name"><tt><b><big>Your name:</big></b></tt></label><br />
+       	<input id="name" class="input" name="name" type="text" size="30" /><br /> 
+       	<span id="name_validation" class="error_message"></span> </div> 
+       	<div class="row"> <label class="required" for="email"><tt><b><big>Your email:</big></b></tt></label><br />
+       	 <input id="email" class="input" name="email" type="text" value="" size="30" /><br /> 
+       	 <span id="email_validation" class="error_message"></span>
+       	  </div> <div class="row"> <label class="required" for="message"><tt><b><big>Your message:</big></b></tt></label><br />
+       	   <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+       	    <span id="message_validation" class="error_message"></span>
+       	     </div> <input id="submit_button" type="submit" value="Submit" />
+       	      </form>
+      
+   </body>	
+   <footer> 
+   					&copy; Asunachan.the mind traveller 2021
+   </footer>
+</html>
